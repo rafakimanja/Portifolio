@@ -37,6 +37,46 @@ header a{
 }
 
 
+/*conteudo*/
+.conteudo{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 550px;
+    border: 1.5px #1b553c;
+    /* border-style: solid; */
+    border-radius: 30px;
+}
+
+.conteudo span{
+    color: rgba(255, 255, 255, 0.767);
+    scale: 400%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.conteudo h1{
+    width: 100%;
+    margin-bottom: 2%;
+    color: rgba(255, 255, 255, 0.767);
+    font: normal 30pt Arial;
+}
+
+.sobre{
+    color: rgba(255, 255, 255, 0.767);
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 2em 4em 2em 4em;
+}
+
+.sobre p{
+    font-size:larger;
+    text-align: justify;
+}
+
 
 /*Rodapé*/
 

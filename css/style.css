@@ -131,6 +131,7 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 500px;
 }
 
 .minhas-tecs h3{
@@ -139,13 +140,13 @@ span{
 }
 
 .tecs{
-    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 300px;
-    width: 350px;
+    width: 450px;
+    margin-top: 3%;
 }
 
 .caixa{
