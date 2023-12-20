@@ -85,6 +85,7 @@ header a{
     border-radius: 10px;
     font: normal 16pt Arial;
     color:#1b553c;
+    cursor: pointer;
     transition: ease 0.3s;
 } 
 
