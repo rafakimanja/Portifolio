@@ -9,10 +9,10 @@ let git = document.querySelector('div#github')
 git.addEventListener('click', ()=>redirect('github'))
 
 let email = document.querySelector('div#email')
-email.addEventListener('click', ()=>copiar('email'))
+email.addEventListener('click', copiar)
 
 let tel = document.querySelector('div#telefone')
-tel.addEventListener('click', copiar)
+tel.addEventListener('click', ()=>redirect('whatss'))
 
 function redirect(link){
 
@@ -29,19 +29,14 @@ function redirect(link){
         case 'github':
             location.href = 'https://www.github.com/rafakimanja'
             break
+
+        case 'whatss':
+            location.href = 'https://wa.me/5551993473445'
     }
 }
 
-function copiar(campo){
-
-    if(campo == 'email'){
-        navigator.clipboard.writeText('rafaellopes.ifrs@gmail.com').then(() => {
-            alert('Email copiado para a área de transferência')
-        })
-    }else{
-        navigator.clipboard.writeText('(51) 993473445').then(() => {
-            alert('Numero de telefone copiado para a área de transferência')
-        })
-    }
-
+function copiar(){
+    navigator.clipboard.writeText('rafaellopes.ifrs@gmail.com').then(() => {
+        alert('Email copiado para a área de transferência')
+    })
 }
