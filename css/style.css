@@ -67,10 +67,10 @@ span{
     margin-top: 25%;
     width: 90%;
     height: 500px;
+    padding: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5%;
     border-radius: 5px;
 }
 
@@ -231,16 +231,18 @@ footer{
 
     .texto-intro{
         margin-top: 200px;
-        margin-bottom: 200px;
+        margin-bottom: 250px;
     }
 
     .intro{
-        font-size: 27pt;
+        font-size: 16pt;
     }
 
     .conteiner-verde{
         flex-direction: column;
         height: 1000px;
+        width: 100%;
+        padding: 5% 0% 5% 0%;
     }
 
     .tecnologia{
@@ -265,6 +267,5 @@ footer{
     .caixa{
         height: 70px;
         height: 70px;
-        margin-right: 5%;
     }
 }
