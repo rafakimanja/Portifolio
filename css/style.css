@@ -202,3 +202,69 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 960px){
+
+    .links{
+        width: 600px;
+    }
+
+    .tecnologia{
+        margin-right: 30px;
+        height: 370px;
+    }
+
+    .titulo{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    .links{
+        width: 250px;
+    }
+
+    header a{
+        font-size: 17px;
+    }
+
+    .texto-intro{
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .intro{
+        font-size: 27pt;
+    }
+
+    .conteiner-verde{
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .tecnologia{
+        height: 300px;
+        width: 250px;
+    }
+
+    .texto{
+        font-size: 12pt;
+    }
+
+    .minhas-tecs h3{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .tecs{
+        width: 370px;
+        margin-top: 1.5%;
+    }
+
+    .caixa{
+        height: 70px;
+        height: 70px;
+        margin-right: 5%;
+    }
+}

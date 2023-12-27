@@ -46,9 +46,6 @@ header a{
     flex-direction: column;
     width: 60%;
     height: 550px;
-    border: 1.5px #1b553c;
-    /* border-style: solid; */
-    border-radius: 30px;
 }
 
 .conteudo span{
@@ -99,4 +96,51 @@ footer{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 960px){
+
+    .links{
+        width: 600px;
+    }
+
+    .conteudo{
+        height: 700px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    .links{
+        width: 250px;
+    }
+
+    header a{
+        font-size: 17px;
+    }
+
+   .conteudo{
+    width: 90%;
+    height: 800px;
+    margin-top: -4%;
+   }
+
+   .conteudo span{
+    scale: 200%;
+   }
+
+   .conteudo h1{
+    font-size: 18pt;
+   }
+
+   .sobre{
+    display: flex;
+    flex-direction: column;
+    padding: 0em 2em 1em 2em;
+   }
+
+   .sobre p{
+    font-size: medium;
+    text-align:left;
+   }
 }
