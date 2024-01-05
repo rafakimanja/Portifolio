@@ -39,7 +39,7 @@ header a{
 
 /*conteudo*/
 .conteudo{
-    margin-top: 7%;
+    margin-top: 10%;
     margin-bottom: 8%;
     display: flex;
     justify-content: center;
@@ -49,32 +49,60 @@ header a{
     height: 550px;
 }
 
-.conteudo span{
+.material-symbols-outlined{
     color: rgba(255, 255, 255, 0.767);
-    scale: 400%;
+    scale: 300%;
     margin-left: 4%;
-    margin-right: 4%;
+    margin-right: 3%;
+}
+
+.material-symbols-outlined#icon-pasta{
+    scale: 250%;
+
 }
 
 .conteudo h1{
     width: 100%;
     margin-bottom: 2%;
     color: rgba(255, 255, 255, 0.767);
-    font: normal 30pt Arial;
+    font: normal 27pt Arial;
 }
 
-.sobre{
+.texto{
     color: rgba(255, 255, 255, 0.767);
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     padding: 2em 4em 2em 4em;
 }
 
-.sobre p{
-    font-size:larger;
+.texto p{
+    font-size: 13pt;
     text-align: justify;
 }
 
+.periodo{
+    font-style: italic;
+}
+
+.texto h3{
+    font: normal 17pt Arial;
+    margin-left: 20px;
+    color: orangered;
+}
+
+.texto a:link{
+    text-decoration: none;
+    color: orangered;
+}
+
+.texto a:hover{
+    text-decoration: underline;
+}
+
+.texto a:visited{
+    text-decoration: none;
+    color: orangered;
+}
 
 /*Rodapé*/
 
@@ -106,6 +134,18 @@ footer{
 
     .conteudo{
         height: 705px;
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+
+    .texto{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+
+    .material-symbols-outlined{
+        margin-right: 5%;
     }
 }
 
@@ -121,7 +161,7 @@ footer{
 
    .conteudo{
     width: 90%;
-    height: 800px;
+    height: 100%;
    }
 
    .conteudo span{
@@ -132,13 +172,13 @@ footer{
     font-size: 18pt;
    }
 
-   .sobre{
+   .texto{
     display: flex;
     flex-direction: column;
     padding: 0em 2em 1em 2em;
    }
 
-   .sobre p{
+   .texto p{
     font-size: medium;
     text-align:left;
    }
