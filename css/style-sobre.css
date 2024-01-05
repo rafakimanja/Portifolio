@@ -58,7 +58,6 @@ header a{
 
 .material-symbols-outlined#icon-pasta{
     scale: 250%;
-
 }
 
 .conteudo h1{
@@ -167,6 +166,10 @@ footer{
    .conteudo span{
     scale: 200%;
    }
+
+   .material-symbols-outlined#icon-pasta{
+    scale: 150%;
+}
 
    .conteudo h1{
     font-size: 18pt;
