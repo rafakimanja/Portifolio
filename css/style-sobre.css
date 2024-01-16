@@ -39,14 +39,29 @@ header a{
 
 /*conteudo*/
 .conteudo{
-    margin-top: 10%;
-    margin-bottom: 8%;
+    margin-top: 17%;
+    margin-bottom: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 60%;
     height: 550px;
+}
+
+.conteudo h1{
+    width: 100%;
+    margin-bottom: 2%;
+    color: rgba(255, 255, 255, 0.767);
+    font: normal 27pt Arial;
+}
+
+.sobre-mim{
+    color: rgba(255, 255, 255, 0.767);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    text-align: justify;
+    margin-bottom: 5%;
 }
 
 .material-symbols-outlined{
@@ -60,45 +75,39 @@ header a{
     scale: 250%;
 }
 
-.conteudo h1{
-    width: 100%;
-    margin-bottom: 2%;
-    color: rgba(255, 255, 255, 0.767);
-    font: normal 27pt Arial;
+.bloco{
+    padding: 2em 6em 2em 6em;
+}
+
+.titulo{
+    font: normal 17pt Arial;
+    margin-left: 20px;
+    color: orangered;
 }
 
 .texto{
     color: rgba(255, 255, 255, 0.767);
     font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    padding: 2em 4em 2em 4em;
-}
-
-.texto p{
     font-size: 13pt;
     text-align: justify;
 }
 
 .periodo{
     font-style: italic;
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 13pt;
 }
 
-.texto h3{
-    font: normal 17pt Arial;
-    margin-left: 20px;
-    color: orangered;
-}
-
-.texto a:link{
+.bloco a:link{
     text-decoration: none;
     color: orangered;
 }
 
-.texto a:hover{
+.bloco a:hover{
     text-decoration: underline;
 }
 
-.texto a:visited{
+.bloco a:visited{
     text-decoration: none;
     color: orangered;
 }
@@ -132,9 +141,9 @@ footer{
     }
 
     .conteudo{
-        height: 705px;
-        margin-top: 30%;
-        margin-bottom: 30%;
+        height: 100%;
+        margin-top: 10%;
+        margin-bottom: 15%;
     }
 
     .texto{
@@ -145,6 +154,10 @@ footer{
 
     .material-symbols-outlined{
         margin-right: 5%;
+    }
+
+    .bloco{
+        padding: 1em 2em 1em 2em;
     }
 }
 
@@ -161,6 +174,7 @@ footer{
    .conteudo{
     width: 90%;
     height: 100%;
+    margin-top: 15%;
    }
 
    .conteudo span{
@@ -178,11 +192,15 @@ footer{
    .texto{
     display: flex;
     flex-direction: column;
-    padding: 0em 2em 1em 2em;
+    padding: 0em 3em 1em 3em;
    }
 
    .texto p{
     font-size: medium;
     text-align:left;
+   }
+
+   .bloco{
+    padding: 0em 0em 0em 0em;
    }
 }
